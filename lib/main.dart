@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  var text = "123";
+  String text = "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";
 
   Future<String> convertSpeechToText(String filePath) async {
     const apiKey = apiSecretKey;
